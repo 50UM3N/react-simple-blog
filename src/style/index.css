@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.navbar-nav li + li {
+    margin-left: 1rem !important;
+}
+
+.card .card-body .el {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
